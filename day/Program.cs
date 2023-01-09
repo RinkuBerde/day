@@ -5,8 +5,8 @@
         static void Main(string[] args)
         {
             //Console.WriteLine("Hello, World!");
-            FlipCoin flipCoin = new FlipCoin();
-            flipCoin.PercentageFlips(10);
+            CheckLeapYear leap = new CheckLeapYear();
+            leap.LeapYear(2002);
         }
     }
 }
