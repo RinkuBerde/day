@@ -4,9 +4,9 @@
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("Hello, World!");
-            CheckLeapYear leap = new CheckLeapYear();
-            leap.LeapYear(2002);
+           // Console.WriteLine("Hello, World!");
+            PowerOf2 pow = new PowerOf2();
+            pow.CheckPower(12);
         }
     }
 }
